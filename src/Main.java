@@ -39,7 +39,9 @@ public class Main {
         livros.adicionarLivro("Harry Potter e o Prisioneiro de Azkaban", "J.K. Rowling", 1999);
         livros.adicionarLivro("Harry Potter e o Cálice de Fogo", "J.K. Rowling", 2000);
 
-        livros.pesquisarPorAutor("Stephenie Meyer");
+        System.out.println(livros.pesquisarPorAutor("Stephenie Meyer"));
+        System.out.println(livros.pesquisarPorIntervaloAnos(1999,2000));
+
 
 
     }
