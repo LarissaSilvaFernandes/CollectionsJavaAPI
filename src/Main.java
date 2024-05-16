@@ -1,3 +1,4 @@
+import list.ordenacao.OrdenacaoPessoas;
 import list.pesquisa.CatalogoLivros;
 import list.pesquisa.Livros;
 
@@ -29,7 +30,7 @@ public class Main {
         System.out.println("Valor total do carrinho de compras: R$ " + carrinhoDeCompras.calcularValorTotal(carrinhoDeCompras.exibirItens()));
         */
 
-        CatalogoLivros livros = new CatalogoLivros();
+      /*  CatalogoLivros livros = new CatalogoLivros();
         livros.adicionarLivro("Crepúsculo", "Stephenie Meyer", 2005);
         livros.adicionarLivro("Lua Nova", "Stephenie Meyer", 2006);
         livros.adicionarLivro("Eclipse", "Stephenie Meyer", 2007);
@@ -41,8 +42,14 @@ public class Main {
 
         System.out.println(livros.pesquisarPorAutor("Stephenie Meyer"));
         System.out.println(livros.pesquisarPorIntervaloAnos(1999,2000));
+        System.out.println(livros.pesquisarPorTitulo("Harry Potter e a Pedra Filosofal")); */
 
+        OrdenacaoPessoas ordenacaoPessoas = new OrdenacaoPessoas();
+        ordenacaoPessoas.adicionarPessoa("larissa",28,1.55);
+        ordenacaoPessoas.adicionarPessoa("Sarina",32,1.70);
+        ordenacaoPessoas.adicionarPessoa("Ingrid",20,1.56);
 
-
+//        System.out.println(ordenacaoPessoas.ordenarPorAltura());
+        System.out.println(ordenacaoPessoas.ordenarPorIdade());
     }
 }
