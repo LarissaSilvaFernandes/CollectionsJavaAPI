@@ -20,7 +20,7 @@ public class TestarMain {
        convidados.exibirConvidados();
        **/
 
-      /**
+
        ConjuntoPalavrasUnicas conjuntoPalavrasUnicas = new ConjuntoPalavrasUnicas();
 
        // Adicionando linguagens únicas ao conjunto
@@ -46,6 +46,6 @@ public class TestarMain {
 
        // Exibindo as linguagens únicas atualizadas no conjunto
        conjuntoPalavrasUnicas.exibirPalavrasUnicas();
-        **/
+
     }
 }
