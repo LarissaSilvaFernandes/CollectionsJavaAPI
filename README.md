@@ -9,7 +9,7 @@ As coleções em Java são fornecidas pelo pacote `java.util` e incluem três ti
 ## Estrutura do Repositório
 
 - **List**: Contém exemplos de como usar a interface `List` e suas implementações, como `ArrayList`.
-- **Set**: Aqui, você encontrará exemplos de como trabalhar com a interface `Set`, incluindo implementações como `HashSet`.
+- **Set**: Aqui, você encontrará exemplos de como trabalhar com a interface `Set`, incluindo implementações como `HashSet` e `TreeSet`.
 - **Map**: Esta seção inclui exemplos de uso da interface `Map` e suas implementações, como `HashMap`.
 
 - **Comparator e Comparable**: Nesta seção, abordamos os conceitos de ordenação de elementos em coleções. E como usar a interface `Comparator` para definir uma ordem personalizada entre elementos e como implementar a interface `Comparable` para permitir a ordenação natural de objetos.
